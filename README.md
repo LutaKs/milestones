@@ -1,3 +1,3 @@
 # milestones
 projectors milestone tasks
-[a link](https://github.com/user/repo/blob/branch/other_file.md)
+[milestone_1](https://github.com/LutaKs/milestones/tree/main/milestone_1)
