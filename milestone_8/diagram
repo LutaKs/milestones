@@ -1,0 +1,29 @@
+# --------------------------------------- 
+# |    class Bookcase                   |      
+# ---------------------------------------
+# |  shelves: dict(genre: Shelf)        |                   
+# |  bool add_book(Book, shelf = None)  |
+# |  bool remove_book(Book)             |
+# |  Shelf get_shelf(genre)             |
+# ---------------------------------------
+#             |
+#             |
+#             V
+# ------------------------------------------------
+# |    class Shelf                               |
+# ------------------------------------------------
+# |   shelf_id: int                              |
+# |   books: dict('genre': dict('title': Book))  |
+# |   bool add_book(Book)                        |
+# |   bool remove_book(Book)                     |
+# ------------------------------------------------
+#             |
+#             |
+#             V
+# -------------------------
+# |    class Book         |
+# -------------------------
+# |   title: str          |
+# |   author: str         |
+# |   genre: str          |
+# -------------------------
