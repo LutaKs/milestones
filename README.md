@@ -19,5 +19,5 @@ notification calendar with csv db
 
 [milestone_7](https://github.com/LutaKs/milestones/tree/main/milestone_7)
 calendar application client/server
-1. run server python3 report.py <filename> ( python3 report.py database.csv )
-2. run client python3 fetch_report.py <month> <departmant> <birthday|anniversary> (python3 fetch_report.py april HR birthday)
+1. run server python3 sever.py <filename> ( python3 server.py database.csv )
+2. run client python3 client.py <month> <departmant> <birthday|anniversary> (python3 client.py april HR birthday)
